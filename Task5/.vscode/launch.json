@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "--wnet general --encoder EncoderCvCvCvCv   --mixer MixerMaxRes5@3 --batchSize 7 --initLr 0.001 --epochs 9 --resumeTrain 0 --config debug  --device 1 --debug 1  --skip True"
+            //"args": "--wnet plain   --mixer MixerMaxRes7@3 --batchSize 7 --initLr 0.001 --epochs 11 --resumeTrain 0 --config debug  --device 1 --debug 1  "
+
+
+
+
+        }
+    ]
+}
