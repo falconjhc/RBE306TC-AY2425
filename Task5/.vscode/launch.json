@@ -11,6 +11,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "args": "--wnet plain   --mixer MixerMaxSmp --batchSize 7 --initLr 0.001 --epochs 11 --resumeTrain 0 --config debug --device 1 --debug 1  "
+            //"args": "--wnet plain   --mixer MixerMaxSmp --batchSize 7 --initLr 0.001 --epochs 11 --resumeTrain 0 --config PF64-PF50-RMS-HardSchedule --device 1 "
         }
     ]
 }

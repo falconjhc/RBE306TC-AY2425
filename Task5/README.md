@@ -36,6 +36,13 @@ cd Scripts
 python PipelineScripts.py --wnet plain --mixer MixerMaxRes7@3 --batchSize 64 --initLr 0.001 --epochs 11 --resumeTrain 1 --config PF64-PF50 --device 0
 ```
 
+### Debug mode:
+
+```bash
+cd Scripts
+python PipelineScripts.py --wnet plain --mixer MixerMaxRes7@3 --batchSize 64 --initLr 0.001 --epochs 11 --resumeTrain 1 --config debug --device 0  --debug 1
+```
+
 ###  2. Congurations:
 To find configurations, please navigate to the directory:
 ```bash
