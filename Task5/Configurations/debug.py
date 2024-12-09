@@ -44,25 +44,25 @@ hyperParams = {
 
         # feature extractor parametrers
         'TrueFakeExtractorPath': [],
-        'ContentExtractorPath':['/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/VGG11Net/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/VGG13Net/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/VGG16Net/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/VGG19Net/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet18/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet34/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet50/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet101/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet152/BestExtractor.pth'],
+        'ContentExtractorPath':['/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/VGG11Net/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/VGG13Net/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/VGG16Net/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/VGG19Net/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet18/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet34/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet50/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet101/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Content/ResNet152/BestExtractor.pth'],
         
-        'StyleExtractorPath':  ['/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/VGG11Net/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/VGG13Net/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/VGG16Net/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/VGG19Net/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet18/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet34/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet50/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet101/BestExtractor.pth',
-                                           '/data-shared/server09/data1/haochuan/Codes/MuyinWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet152/BestExtractor.pth']
+        'StyleExtractorPath':  ['/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/VGG11Net/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/VGG13Net/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/VGG16Net/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/VGG19Net/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet18/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet34/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet50/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet101/BestExtractor.pth',
+                                           '/data-shared/NAS/RBE306TC/AY2425/PretrainedWNet/FeatureExtractorTrained/Debug/Ckpts/Style/ResNet152/BestExtractor.pth']
         
         # 'ContentExtractorPath':[],
         # 'StyleExtractorPath':  []

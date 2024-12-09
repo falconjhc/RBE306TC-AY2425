@@ -36,25 +36,7 @@ cd Scripts
 python PipelineScripts.py --wnet plain --mixer MixerMaxRes7@3 --batchSize 64 --initLr 0.001 --epochs 11 --resumeTrain 1 --config PF64-PF50 --device 0
 ```
 
-### 2. Train a Generalized WNet with Basic ResBlocks:
-
-```bash
-python PipelineScripts.py --wnet general --encoder EncoderCvCvCvCv --decoder DecoderCvCvCvCv --mixer MixerMaxRes7@3 --batchSize 64 --initLr 0.001 --epochs 55 --resumeTrain 0 --config PF64-PF50 --device 0
-```
-
-
-### 3. Train a Generalized WNet with Bottleneck ResBlocks:
-```bash
-python PipelineScripts.py --wnet general --encoder EncoderCbnCbnCbnCbn --decoder DecoderCbnCbnCbnCbn --mixer MixerMaxRes7@3 --batchSize 64 --initLr 0.001 --epochs 55 --resumeTrain 0 --config PF64-PF50 --device 0
-```
-
-
-### 4. Train a Generalized WNet with Vision Transformers:
-```bash
-python PipelineScripts.py --wnet general --encoder EncoderCbnCbnCbnVit@2@24 --decoder DecoderVit@2@24CbnCbnCbn --mixer MixerMaxRes7@3 --batchSize 64 --initLr 0.001 --epochs 55 --resumeTrain 0 --config PF64-PF50 --device 0
-```
-
-###  5. Congurations:
+###  2. Congurations:
 To find configurations, please navigate to the directory:
 ```bash
 [where you place your code]/Configurations/[some configuration file].py 

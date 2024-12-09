@@ -48,14 +48,14 @@ START_TRAIN_EPOCHS = 3  # Epoch after which simple augmentations start
 sys.path.append('./')
 from Pipelines.Dataset import CharacterDataset
 from Utilities.utils import set_random
-from Networks.GeneralizedGenerator.WNetGeneratorBase import WNetGeneratorBase as GeneralizedWNet
+# from Networks.GeneralizedGenerator.WNetGeneratorBase import WNetGeneratorBase as GeneralizedWNet
 from Networks.PlainGenerators.PlainWNetBase import WNetGenerator as PlainWnet
 from LossAccuracyEntropy.Loss import Loss
 from Utilities.utils import Logging, PrintInfoLog
 
 
-# WNetDict contains two variations of the WNetGenerator model, selecting based on configuration
-WNetDict = {'general': GeneralizedWNet, 'plain': PlainWnet}
+# # WNetDict contains two variations of the WNetGenerator model, selecting based on configuration
+# WNetDict = {'general': GeneralizedWNet, 'plain': PlainWnet}
 
 # Define data augmentation modes for various stages of training
 DataAugmentationMode = {
@@ -140,8 +140,7 @@ class Trainer(nn.Module):
         self.startEpoch = 0  # Initialize starting epoch
 
         # Model initialization: select the appropriate WNetGenerator model based on configuration
-        WNetGenerator = WNetDict[self.config.wnet]
-        self.model = WNetGenerator(self.config, self.sessionLog)
+        self.model = PlainWnet(self.config, self.sessionLog)
         self.model.train()  # Set the model to training mode
         self.model.cuda()  # Move the model to GPU
 

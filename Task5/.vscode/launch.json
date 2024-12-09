@@ -10,12 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": "--wnet general --encoder EncoderCvCvCvCv   --mixer MixerMaxRes5@3 --batchSize 7 --initLr 0.001 --epochs 9 --resumeTrain 0 --config debug  --device 1 --debug 1  --skip True"
-            //"args": "--wnet plain   --mixer MixerMaxRes7@3 --batchSize 7 --initLr 0.001 --epochs 11 --resumeTrain 0 --config debug  --device 1 --debug 1  "
-
-
-
-
+            "args": "--wnet plain   --mixer MixerMaxSmp --batchSize 7 --initLr 0.001 --epochs 11 --resumeTrain 0 --config debug --device 1 --debug 1  "
         }
     ]
 }
